@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>Hands-On Waterfall Method</title>
+    <title>Hands-On Waterfall Method</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
-      <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css">   
-    <link rel="stylesheet/less" href="css/styles.less" type="text/css">  
-  </head>
-  <body>
-      <header>
-  <nav class="navbar navbar-inverse" role="navigation">
-      <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-          </button>
-  <a class="navbar-brand" href="exwaterfallpm.html" id="Stylin">Reverse Osmosis Mobile Application</a>
-  </div>
-      <div class="collapse navbar-collapse" id="example-navbar-collapse">
-          <ul class="nav navbar-nav">       
-              <li class="active"><a href="index.html">Tracie Project</a></li>
-              <li><a href="exwaterfallpm.html">Execter Project</a></li>
-          </ul>
-        </div> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css">   
+        <link rel="stylesheet/less" href="css/styles.less" type="text/css">  
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+<a class="navbar-brand" href="index.html" id="Stylin">Reverse Osmosis Mobile Application</a>
     </div>
-  </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">       
+                <li class="active"><a href="index.html">Tracie Project</a></li>
+                </ul>
+            </div> 
+        </div>
+    </div>
 </nav>
 <div class="container-fluid">
     <div class="media-header">
@@ -36,9 +35,10 @@
                 <div class="row">
            <div class="col-lg-12">
         <div class="media">
-    <p>The purpose of this project is to develop a mobile application for customers phones that can be connected to their Reverse Osmosis Systems. This device will give our customers 
-    the ability to see into their Reverse Osmosis or Filtration Systems via electronical connections which will communicate to the application. These connections will allow our
-    customers to remotely monitor multiple aspects of their system (i.e. gallons of water usage, leak detection, TDS and mineral levels, etc.).</p>
+    <p>The purpose of this project is to develop a mobile application for customers phones and / or tablets that can be connected to their Reverse Osmosis or Filtration Systems.
+        This device will give customers the ability to see into their Reverse Osmosis or Filtration Systems via electronical connections. These connections will communicate to the application.
+        This application will allow customers to remotely monitor multiple touch points and different aspects of their system (i.e. gallons of water usage, leak detection, TDS and mineral 
+        levels, etc.). This monitoring application will give the company an advantage over the competition. It will also give customers a sense of security and trust.</p> 
 </div>
     </div>
         </div>
@@ -52,14 +52,17 @@
                     <div class="row">
                <div class="col-lg-12">
             <div class="media">
-<p>In the current Water Quality Market there are no mobile applications with all of these different monitoring aspects for Filtration Systems. Other Water Quality Companies do
-    have one portion or another but not all. Three items for monitoring stand out as large attractions for our customers and new customers. </p>
+<p>In the current Water Quality Market, there are no mobile applications with each of the listed monitoring aspects for Filtration Systems. Other Water Quality Companies do
+    have one portion or another but not all. With the mobile application not only storing the customers Water Quality data, but also transmitting it to the Companies ecommerce platform customers
+    will not have to explain to Technical Support Agents what issues they are seeing. The agents will have the pertinent data from the customers Water Filtration System already. Three items for monitoring stand out as large
+    attractions for our customers and new customers. These below items are just three of the  items which will assist in driving sales as well as product value and brand recognition.</p>
 <ol>
     <li>Gallons of Water Usage, when it is time to change filters based on water usage and not time based.</li>
     <li>Leak detection, a customer is away on vacation and receives an alert on their mobile application telling them they have a leak on their Filtration System.  This allows them 
         to contact a friend, or family member and have the water shut off before it becomes a big problem.</li>
     <li>TDS Levels, there are many customers that will take their water to other locations to have their water tested since we do not have Quality Assurance in all states. If those
-        customers take their samples to our competitors we know they are pitching them on a new system from them. We always risk loosing customers.</li>
+        customers take their samples to our competitors we know they are pitching them on a new system from them. We always risk losing customers. Confusion over TDS and what this means 
+        drives customers to hold out longer before purchasing replacement membranes.</li>
 </ol>
 </div>
 </div>
@@ -106,15 +109,23 @@
    <div class="col-lg-12">
 <div class="media">
     <ol>
-<li>There is currently a one directional communication database being used to store data from commercial customers at this time.
+<li>There is currently a one directional communication database being used to store data from commercial customers.
     This current technology our engineers believe can be used and re-engineered for our residential Filtration Systems to feedback
     the information necessary for the monitoring.</li>
+<li>When a customer re-orders filters whether it be via the mobile application, web-site, or over-the-phone the mobile app should recognize this and alert the customer
+    to reset the 'Timer' on their application when the filters are actually changed. All orders go through Shopify allowing for a two-way communication to pull and receive the 
+    necessary infoamtion to alert the customer.</p>
+<li>All customers tracking their Filtration Systems will be required to not only register their product online but to check-out using their user/pass to ensure all activity is tracked
+    to keep the logs of their orders, maintenance, etc accurate.</p>
 <li>The mobile application will receive notifications electronic detectors located in key positions on our Water Filtration Devices. The information
     received back will need to be transmitted via the mobile application to our customers.</li>
 <li>The key identifiers for each individual customer will be the Serial number of their product (registered) and their user/pass for the
     website.</li>     
 <li>Integration with Shopify will also require a data upload either nightly or in consistent intervals to maintain records as well as for customer service/tech 
     supports ability to assist in customer needs more effectively.</li>
+<li>Ensure all purchases by customers are happening on Shopify through their integration API and not on the actual Mobile Application. With this there is no PCI compliance issues as they
+    are already handled through Shopify. Everything with the exception of the check-out can happen on the Mobile Application. Will need to reach out to Shopify's Web Developers to located
+    what API's are needed in order to process the transaction on moble through their cart.</li>
 </div>
 </div>
     </div>
@@ -134,7 +145,7 @@
     <li>Mobile Application Developers - Minimum Two (one front end and one back end)</li>
     <li>Quality Assurance - One</li>
     <li>Subject Matter Expert (Shopify)- One</li>
-    <li>Subject Matter Exper (Water Filtration)</li>
+    <li>Subject Matter Expert (Water Filtration)</li>
 
 </ol>    
 
@@ -151,19 +162,19 @@
         <div class="row">
    <div class="col-lg-12">
 <div class="media">
-<h4 style="margin-left: 50px; color: #2EC915" />Prototype Phase</h4>
-<p>Engineering to build a prototype using the identified locations and technology for monitoring and feeding back the informaiton. Once the prototype
+<h4>Prototype Phase</h4>
+<p>Engineering to build a prototype using the identified locations and technology for monitoring and feeding back the information. Once the prototype
     has been completed we will test the prototype to be assured the monitoring is accurate without the application.</p>
-    <h4 style="margin-left: 50px; color: #2EC915" />Application Phase</h4>    
-<p>During the Prototype Phase the Mobile Application Developers will be working with both SME's to learn a better understanding of the needs an focus for this application. Once the
+    <h4>Application Phase</h4>    
+<p>During the Prototype Phase, the Mobile Application Developers will be working with both SME's to learn a better understanding of the needs and focus for this application. Once the
     prototype has been tested and working as expected, we will move on to the Application Phase where the Mobile Application Developers will identify and establish the connections between
     the prototype and the application. Once established Quality will test for accuracy</p>
-    <h4 style="margin-left: 50px; color: #2EC915" />Development Phase</h4>
-<p>During the Development Phase our Mobile Application Deleopers will begin the process of buildinng the application.  Both Frontend and Backend developement will be taking place in order to keep
+    <h4>Development Phase</h4>
+<p>During the Development Phase, our Mobile Application Developers will begin the process of building the application.  Both Frontend and Backend development will be taking place in order to keep
     everything in line.</p>
-    <h4 style="margin-left: 50px; color: #2EC915" />Quality Assurance</h4>
-<p>Throughout this entire process there will be testing, not just at the end of each phose. This will keep the project on track all assist the team in hitting our deadline.</p>
-<h4 style="margin-left: 50px; color: #2EC915" />Estimated Delivery Timeframe</h2>
+    <h4>Quality Assurance</h4>
+<p>Throughout this entire process there will be testing, not just at the end of each phase. This will keep the project on track all assist the team in hitting our deadline.</p>
+<h4>Estimated Delivery Timeframe</h2>
 <p>The current expectation of the team is to be ready for final testing in 6 months. Legal is prepared to begin patent submissions based upon the initial engineering phase unless there are 
     any unexpected issues.</p>   
 
@@ -182,8 +193,8 @@
    <div class="col-lg-12">
 <div class="media">
     <ol>
-<li>Engineering will will able to re-design the current technology one-directional technology used for with the commercial division</li>
-<li>We will be able to transmit the desired information to the mobile application</li>
+<li>Engineering will be able to re-design the current technology one-directional technology used for with the commercial division</li>
+<li>We will be able to transmit the desired information to / from the mobile application / Water Filtration System / Shopify</li>
 <li>The application will be able to integrate with Shopify</li>
 </ol>
 
@@ -201,8 +212,8 @@
    <div class="col-lg-12">
 <div class="media">
 <ol>
-    <li>If we are limited in the amount of time we have our engineers we will be placing our timeframe at risk.</li>
-    <li>Shopify does not allow for customer applications to be stored on their servers. We will need to either use a company server or a hosted server.</li>
+    <li>If we are limited in the amount of time engineers are alotted to our project we will be placing our timeframe at risk.</li>
+    <li>Shopify does not allow for custom applications to be stored on their servers. We will need to either use a company server or a hosted server.</li>
 </ol>
 
 </div>
@@ -218,8 +229,8 @@
         <div class="row">
    <div class="col-lg-12">
 <div class="media">
-<p>Our project hinges on being able to utilize / re-design the current one-directional structure the commmercial division is using. If this turns out to be a non viable solution
-        we will have to spend additonal time researching other alternatives.</p>  
+<p>Our project hinges on being able to utilize / re-design the current one-directional structure the commercial division is using. If this turns out to be a non-viable solution
+        we will have to spend additional time researching other alternatives.</p>  
 <footer style="padding: 25px">
     </footer> 
 <script src='bower_components/less/dist/less.min.js' type="text/javascript"></script>
